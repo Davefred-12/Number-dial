@@ -1,0 +1,131 @@
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 10,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+  }
+  
+  * {
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      background-color: rgb(229, 142, 142);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+      padding: 1em;
+  }
+  
+  .container {
+      background-color: rgb(241, 255, 117);
+      width: 25vw;
+      padding: 1.8em;
+      border-radius: 15px;
+      align-items: center;
+  }
+  
+  .header-text {
+      color: rgb(0, 0, 0);
+      font-size: 2rem;
+      margin-top: 1.2em;
+      font-weight: lighter;
+      text-align: left;
+  }
+  
+  .header-first-para {
+      font-weight: 100;
+      color: rgb(0, 0, 0);
+      margin-top: 1.2em;
+      font-size: 1rem;
+      text-align: left;
+  }
+  
+  .parent_letter {
+      display: flex;
+      margin: 1.125em;
+      justify-content: space-evenly;
+  }
+  
+  h2 {
+      color: white;
+      border-radius: 50%;
+      background-color: black;
+      padding: 0.5em;
+  }
+  
+  #submit {
+      font-size: 15px;
+      padding: 1em 1em;
+      width: 100%;
+      color: rgb(234, 255, 0);
+      background-color: rgba(245, 0, 0, 0.642);
+      border: 2px solid rgb(255, 255, 255);
+      border-radius: 25px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+      .container {
+          width: 50vw;
+      }
+  
+      .header-text {
+          font-size: 1.8rem;
+      }
+  
+      .header-first-para {
+          font-size: 0.9rem;
+      }
+  
+      h2 {
+          padding: 0.4em;
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+      .container {
+          width: 70vw;
+      }
+  
+      .header-text {
+          font-size: 1.6rem;
+      }
+  
+      .header-first-para {
+          font-size: 0.8rem;
+      }
+  
+      h2 {
+          padding: 0.35em;
+      }
+  }
+  
+  @media screen and (max-width: 480px) {
+      .container {
+          width: 90vw;
+      }
+  
+      .header-text {
+          font-size: 1.4rem;
+      }
+  
+      .header-first-para {
+          font-size: 0.75rem;
+      }
+  
+      h2 {
+          padding: 0.3em;
+      }
+  
+      #submit {
+          font-size: 14px;
+          padding: 0.8em;
+      }
+  }
+  
